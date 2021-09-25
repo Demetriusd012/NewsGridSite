@@ -1,0 +1,79 @@
+
+
+header{
+  grid-template-areas:
+  ' nav1 '
+  'nav2 '
+  'nav3 '
+}
+
+.nav1{
+  width:100%;
+  justify-content:center;
+  display:grid;
+  padding:0px;
+}
+
+
+.nav1 img{
+  width:100%;
+  justify-self:center;
+}
+
+.nav2{
+  display:none;
+}
+
+.nav3{
+ 
+}
+.grid{
+  grid-template-columns:1fr;
+ grid-template-areas:
+ 'card1'
+ 'card9'
+ 'card3'
+ 'card4'
+ 'card7'
+ 'card8'
+ 'card6'
+ ;
+
+ 
+}
+
+.card1,.card9{
+  grid-template-columns:1fr;
+}
+
+.info{
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+ height: 100%;
+
+}
+footer .footerContainer{
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  'container1'
+  'container2'
+  'container3'
+  'container4'
+  'copy'
+  ;
+}
+
+footer .container1,
+footer .container2,
+footer .container3,
+footer .container4{
+
+}
+
+
+
+
+

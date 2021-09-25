@@ -1,0 +1,70 @@
+:root{
+ --primaryColor:#c72727;
+ --secondaryColor:#f99500;
+--lightColor:#f3f3f3;
+--darkColor:#333;
+--maxWidth:1100px;
+}
+
+.category{
+  color:var(--lightColor);
+  --entColor:#a66bbe;
+  --techColor:#009cff;
+  --sportsColor:#f99500;
+}
+
+a{
+  color:var(--lightColor);
+}
+
+.btn{
+padding: 5px;
+text-decoration: none;
+
+}
+
+.btnPrimary{
+  background: var(--primaryColor);
+  color:var(--lightColor);
+}
+
+.btnSecondary{
+  background: var(--lightColor);
+  color: var(--darkColor);
+}
+.btnThird{
+  background:var(--secondaryColor);
+  color:var(--lightColor);
+}
+
+span{
+  padding:5px;
+  border-radius: 2px;
+  font-family:'Staatliches',Arial;
+  
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:1000;
+  font-family:'Staatliches', arial;
+}
+p{
+  font-family:"lato";
+  font-weight:600;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+}
+
+.pd{
+padding:10px;
+
+}
+img{
+  width: 100%;
+}
