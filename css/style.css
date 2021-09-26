@@ -311,3 +311,35 @@ display:grid;
 background:#444;
 padding:5px;
 }
+
+/* About.html Page */
+
+.aboutGrid{
+  display: grid;
+  gap:1rem;
+  grid-template-areas: 
+  'about2 about1'
+;
+
+grid-template-columns: repeat();
+}
+
+.about{
+  padding:10px;
+}
+
+.about .about1{
+  background: var(--lightColor);
+  color: var(--darkColor);
+  grid-area:about1;
+}
+
+.about .about2{
+grid-area:about2;
+}
+
+.about2 p{
+  color:red;
+
+}
+

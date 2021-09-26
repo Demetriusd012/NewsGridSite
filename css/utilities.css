@@ -37,6 +37,11 @@ text-decoration: none;
   color:var(--lightColor);
 }
 
+.btnDark{
+  background:var(--darkColor);
+  color:var(--lightColor);
+}
+
 span{
   padding:5px;
   border-radius: 2px;
